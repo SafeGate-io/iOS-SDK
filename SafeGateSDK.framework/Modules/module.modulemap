@@ -1,0 +1,14 @@
+framework module SafeGateSDK {
+    umbrella header "SafeGateSDK.h"
+
+    explicit module Calculations {
+        private header "calculations.h"
+    }
+
+    export *
+}
+
+module SafeGateSDK.Swift {
+    header "SafeGateSDK-Swift.h"
+    requires objc
+}
