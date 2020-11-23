@@ -15,7 +15,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ConnectionViewController" customModule="ExampleApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="756"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please turn on Bluetooth on iOS device and connect  to Thermal Camera" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Bk-XN-Xwe">
@@ -127,12 +127,90 @@
             <objects>
                 <viewController id="jUS-5X-thP" customClass="MeasuringViewController" customModule="ExampleApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wEX-BT-WN7">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="756"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dad-uW-Nox">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="756"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pix-rq-4vc" customClass="FaceView" customModule="ExampleApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="756"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQ2-Pz-hYj">
+                                <rect key="frame" x="153.33333333333334" y="24" width="83.666666666666657" height="28.333333333333329"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="systemGray6Color"/>
+                                <size key="shadowOffset" width="-1" height="-1"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="NyO-8b-XHU">
+                                <rect key="frame" x="24.666666666666657" y="649" width="341" height="49"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tST-pe-oDP" customClass="Button" customModule="ExampleApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="165" height="49"/>
+                                        <color key="backgroundColor" name="deepSkyBlue"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="RlZ-C2-Qsd"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="ikc-RR-DrE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="contentEdgeInsets" minX="14" minY="14" maxX="14" maxY="14"/>
+                                        <state key="normal" title="Check Temperature"/>
+                                        <connections>
+                                            <action selector="checkTemperature" destination="jUS-5X-thP" eventType="touchUpInside" id="06E-On-q88"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NDv-R5-2a8" customClass="Button" customModule="ExampleApp" customModuleProvider="target">
+                                        <rect key="frame" x="181" y="0.0" width="160" height="49"/>
+                                        <color key="backgroundColor" name="deepSkyBlue"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="eOA-WF-VwF"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="n4x-3G-ceV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="contentEdgeInsets" minX="14" minY="14" maxX="14" maxY="14"/>
+                                        <state key="normal" title="Detect Mask"/>
+                                        <connections>
+                                            <action selector="deteckMask" destination="jUS-5X-thP" eventType="touchUpInside" id="I77-qX-cXe"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="3O6-Pd-l2u"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dad-uW-Nox" firstAttribute="leading" secondItem="Pix-rq-4vc" secondAttribute="leading" id="3KE-Qu-Zc1"/>
+                            <constraint firstItem="IQ2-Pz-hYj" firstAttribute="centerX" secondItem="wEX-BT-WN7" secondAttribute="centerX" id="9sL-3J-Rho"/>
+                            <constraint firstItem="dad-uW-Nox" firstAttribute="bottom" secondItem="Pix-rq-4vc" secondAttribute="bottom" id="BqC-GV-v7g"/>
+                            <constraint firstItem="dad-uW-Nox" firstAttribute="top" secondItem="Pix-rq-4vc" secondAttribute="top" id="Cwj-fL-lHq"/>
+                            <constraint firstItem="3O6-Pd-l2u" firstAttribute="bottom" secondItem="NyO-8b-XHU" secondAttribute="bottom" constant="24" id="ES9-iG-b0H"/>
+                            <constraint firstItem="3O6-Pd-l2u" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="NyO-8b-XHU" secondAttribute="trailing" constant="12" id="K7T-d8-Sol"/>
+                            <constraint firstItem="3O6-Pd-l2u" firstAttribute="trailing" secondItem="Pix-rq-4vc" secondAttribute="trailing" id="KY6-7s-IZw"/>
+                            <constraint firstItem="IQ2-Pz-hYj" firstAttribute="top" secondItem="3O6-Pd-l2u" secondAttribute="top" constant="24" id="LLh-So-HGy"/>
+                            <constraint firstItem="NyO-8b-XHU" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="3O6-Pd-l2u" secondAttribute="leading" constant="12" id="U1L-Gh-cqj"/>
+                            <constraint firstItem="dad-uW-Nox" firstAttribute="trailing" secondItem="Pix-rq-4vc" secondAttribute="trailing" id="a64-1c-Ckt"/>
+                            <constraint firstItem="NyO-8b-XHU" firstAttribute="centerX" secondItem="wEX-BT-WN7" secondAttribute="centerX" id="bw3-An-eZd"/>
+                            <constraint firstItem="Pix-rq-4vc" firstAttribute="leading" secondItem="3O6-Pd-l2u" secondAttribute="leading" id="gmD-SL-hWc"/>
+                            <constraint firstAttribute="bottom" secondItem="Pix-rq-4vc" secondAttribute="bottom" id="lbx-Ju-13V"/>
+                            <constraint firstItem="3O6-Pd-l2u" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="IQ2-Pz-hYj" secondAttribute="trailing" constant="12" id="pZN-3w-aZo"/>
+                            <constraint firstItem="IQ2-Pz-hYj" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="3O6-Pd-l2u" secondAttribute="leading" constant="12" id="pkv-RH-FA1"/>
+                            <constraint firstItem="Pix-rq-4vc" firstAttribute="top" secondItem="3O6-Pd-l2u" secondAttribute="top" id="uM0-we-MDY"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Measuring &amp; Detection" largeTitleDisplayMode="never" id="xi2-qu-6uZ"/>
+                    <connections>
+                        <outlet property="checkButton" destination="tST-pe-oDP" id="v6u-wv-IbH"/>
+                        <outlet property="detectButton" destination="NDv-R5-2a8" id="rvE-0M-zqt"/>
+                        <outlet property="faceView" destination="Pix-rq-4vc" id="BOQ-Wa-Cyy"/>
+                        <outlet property="messageLabel" destination="IQ2-Pz-hYj" id="DNm-tr-Cgu"/>
+                        <outlet property="previewView" destination="dad-uW-Nox" id="Un4-FJ-JfI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VCk-ms-ViB" sceneMemberID="firstResponder"/>
             </objects>
@@ -143,7 +221,7 @@
             <objects>
                 <viewController id="dhw-d4-5sY" customClass="HeatMapViewController" customModule="ExampleApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="beQ-Cf-OZp">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="756"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="249" verticalHuggingPriority="249" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="yu9-4F-ENP">

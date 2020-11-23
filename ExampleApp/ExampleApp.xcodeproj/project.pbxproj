@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8DED971654C241E9B7761483 /* Pods_ExampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A019C6679AE509FC7A07CBB /* Pods_ExampleApp.framework */; };
+		F00BC970256BDC5700EDD38A /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00BC96F256BDC5700EDD38A /* FaceView.swift */; };
 		F017E2BF2564EAE600BDE4A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F017E2BE2564EAE600BDE4A7 /* AppDelegate.swift */; };
 		F017E2C62564EAE600BDE4A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F017E2C42564EAE600BDE4A7 /* Main.storyboard */; };
 		F017E2C82564EAE800BDE4A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F017E2C72564EAE800BDE4A7 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		1A019C6679AE509FC7A07CBB /* Pods_ExampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D872E77911D91AFFF4CE8AE /* Pods-ExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleApp.debug.xcconfig"; path = "Target Support Files/Pods-ExampleApp/Pods-ExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		4B952AC98C2F9DDFE5F67B57 /* Pods-ExampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleApp.release.xcconfig"; path = "Target Support Files/Pods-ExampleApp/Pods-ExampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		F00BC96F256BDC5700EDD38A /* FaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 		F017E2BB2564EAE600BDE4A7 /* ExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F017E2BE2564EAE600BDE4A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F017E2C52564EAE600BDE4A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				F06E2B62256505EE00EFE8CF /* TemperatureMeterInjectable.swift */,
 				F06E2B662565066800EFE8CF /* TitledSlider.xib */,
 				F06E2B692565067C00EFE8CF /* TitledSlider.swift */,
+				F00BC96F256BDC5700EDD38A /* FaceView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				F017E2BF2564EAE600BDE4A7 /* AppDelegate.swift in Sources */,
 				F017E3002564F09700BDE4A7 /* MeasuringViewController.swift in Sources */,
 				F06E2B63256505EE00EFE8CF /* TemperatureMeterInjectable.swift in Sources */,
+				F00BC970256BDC5700EDD38A /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
