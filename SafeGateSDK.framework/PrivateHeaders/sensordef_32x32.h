@@ -3,8 +3,6 @@
 #ifndef  _SENSORDEF_32x32_H
 #define  _SENSORDEF_32x32_H
 
-
-
 // DEVICE ADRESS
 #define  SENSOR_ADDRESS          0x1A
 #define  EEPROM_ADDRESS          0x50
@@ -92,8 +90,6 @@
 #define E_SUBNET                0x0212
 #define E_MAC                   0x0216
 
-
-
 // ---Sensor---
 // write only
 #define CONFIGURATION_REGISTER  0x01
@@ -109,7 +105,6 @@
 #define TOP_HALF                0x0A
 #define BOTTOM_HALF             0x0B
 
-
 // --- LOOKUP TABLE---
 
 #define ReadToFromTable
@@ -119,13 +114,13 @@
 //#define HTPA32x32dL2_1HiSiF5_0_Gain3k3
 //#define HTPA32x32dR1L1k8_0k7HiGe                          // <- 1247
 //#define HTPA32x32dR1L2_1HiSiF5_0_Precise
-#define HTPA32x32dR1L2_1HiSiF5_0_Gain3k3_Extended           // <- 1243
+//#define HTPA32x32dR1L2_1HiSiF5_0_Gain3k3_Extended           // <- 1243
 //#define HTPA32x32dR1L2_85Hi_Gain3k3
 //#define HTPA32x32dR1L3_6HiSi_Rev1_Gain3k3
 //#define HTPA32x32dR1L5_0HiGeF7_7_Gain3k3
 //#define HTPA32x32dR1L5_0HiGeF7_7_Gain3k3_TaExtended       // <- 1258 & 1237
 //#define HTPA32x32dR1L7_0HiSi_Gain3k3
-
+#define HTPA32x32dR2L2_1HiSiF5_0_Gain3k3
 
 #ifdef HTPA32x32dR1L5_0HiGeF7_7_Gain3k3
 #define TABLENUMBER   113
@@ -316,8 +311,21 @@
 #endif
 #endif
 
-
-
-
+#ifdef HTPA32x32dR2L2_1HiSiF5_0_Gain3k3
+#define TABLENUMBER   114
+#define PCSCALEVAL    100000000 //327000000000    //PixelConst scale value for table... lower 'L' for (long)
+#define NROFTAELEMENTS  7
+#define NROFADELEMENTS  1595  //130 possible due to Program memory, higher values possible if NROFTAELEMENTS is decreased
+#define TAEQUIDISTANCE  100   //dK
+#define ADEQUIDISTANCE  64    //dig
+#define ADEXPBITS   6   //2^ADEXPBITS=ADEQUIDISTANCE
+#define TABLEOFFSET   1024
+#define EQUIADTABLE   //if defined, ADELEMENTS have to be 2^N quantizied! else more CPU Power is needed
+#ifdef EQUIADTABLE
+#undef FLOATTABLE
+#endif
+#define MBITTRIMDefault 0x2C  //use REF_CAL=2 here. Table does not match, so GlobalGain ist set to 50 % to compensate this.
+#define SensRv 1        //Sensor Revision is set to 1 (Redesign)
+#endif
 
 #endif  // _SENSORDEF_32x32_H
