@@ -10,11 +10,11 @@
 		</data>
 		<key>GlassesClassifier.mlmodelc/coremldata.bin</key>
 		<data>
-		Vzt/G0v5SyeRmG5M+7L74D6GspM=
+		NWv2HGznLxOfYT6smMlT9EjBFK4=
 		</data>
 		<key>GlassesClassifier.mlmodelc/metadata.json</key>
 		<data>
-		xkXiqXfYjXi4mjD7PcpWU0kO8jE=
+		ebsH7MUHrdnOn13aciLQEqYauf0=
 		</data>
 		<key>GlassesClassifier.mlmodelc/model0/coremldata.bin</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		PnkY27IXSDKeiD6EgEDjzgLpguE=
+		A/QsD2z/CR/UUAaMRFOY+IG7Jjs=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		B3BesEpYAFLzlJI3ktBRW6zgsjY=
+		MRmacIaDJUi4AdDlBz0kEN4NuWo=
 		</data>
 		<key>MaskClassifier.mlmodelc/analytics/coremldata.bin</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>MaskClassifier.mlmodelc/metadata.json</key>
 		<data>
-		X0/0Nf46zL8D77aqAefkv2dKsh8=
+		J0qllO6qZavfN+owkA2zAtFd0ak=
 		</data>
 		<key>MaskClassifier.mlmodelc/model0/coremldata.bin</key>
 		<data>
@@ -110,19 +110,19 @@
 		</data>
 		<key>Modules/SafeGateSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		71vOGj/bsjAqCkqIftr9iHAMucY=
+		/HZhLhbhadFpw9ucXh/qTkkzuGU=
 		</data>
 		<key>Modules/SafeGateSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		l02eWlvux9WMChzQ0lOcJ5pef9s=
+		AWNYIQlmhJsLqzH2HxbHJq2J+WU=
 		</data>
 		<key>Modules/SafeGateSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		71vOGj/bsjAqCkqIftr9iHAMucY=
+		/HZhLhbhadFpw9ucXh/qTkkzuGU=
 		</data>
 		<key>Modules/SafeGateSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		l02eWlvux9WMChzQ0lOcJ5pef9s=
+		AWNYIQlmhJsLqzH2HxbHJq2J+WU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -154,14 +154,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6a/1UyWE6/+RAEtNys3rtJ3s6+Dsao6ab485H9LgxUs=
+			jnN9vYU3lrBRn+V+8qr7+h+nw+lY2nfM0tNe1O4fqQw=
 			</data>
 		</dict>
 		<key>GlassesClassifier.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4GxsNkEruihKndZKzRUIETfJbbPpYG6M5Ve5oYWchIw=
+			FuBc+AHGFRnoyJgYfjMmzjDuBLPgtNNN45iVh1yWXBI=
 			</data>
 		</dict>
 		<key>GlassesClassifier.mlmodelc/model0/coremldata.bin</key>
@@ -203,7 +203,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8s1AfH2rAJGHQFSCnKz2TwjB4VMeyic36hZsYy9cg5E=
+			RHM6pW8I2doWSbIFLfvXjZpvRKS6YfbHAdTZmcjIcQQ=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -301,7 +301,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yX9nDUProrJCUZowBiBkyLp5jrVEjlOg6hGiJ1uNgP4=
+			8JEETqUag2w0VsUUirtNPYMauRK+R2MrlJWhCT1+kpM=
 			</data>
 		</dict>
 		<key>MaskClassifier.mlmodelc/model0/coremldata.bin</key>
@@ -322,28 +322,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HyQKCahfSBvGZ7nkNqfBlfEduSejhYSGmV9V9Roms0g=
+			oMJ80I//R3QPPIvT2ir9c3NZKBi5qkebK/KfzTGSBtU=
 			</data>
 		</dict>
 		<key>Modules/SafeGateSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CmhrwUxRBcnREv5kWKmHLtXLdz+zpIwGqsOQ5kte910=
+			auoF/SYoZ9tBUpwQv4ZdkYyMoPZV15tqzHsB7fXadEE=
 			</data>
 		</dict>
 		<key>Modules/SafeGateSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HyQKCahfSBvGZ7nkNqfBlfEduSejhYSGmV9V9Roms0g=
+			oMJ80I//R3QPPIvT2ir9c3NZKBi5qkebK/KfzTGSBtU=
 			</data>
 		</dict>
 		<key>Modules/SafeGateSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CmhrwUxRBcnREv5kWKmHLtXLdz+zpIwGqsOQ5kte910=
+			auoF/SYoZ9tBUpwQv4ZdkYyMoPZV15tqzHsB7fXadEE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
