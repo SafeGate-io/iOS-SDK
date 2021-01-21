@@ -67,9 +67,9 @@
     ],
     "generatedClassName" : "MaskClassifier",
     "userDefinedMetadata" : {
-      "com.apple.createml.app.version" : "1.0",
       "com.apple.createml.version" : "10.15.5",
-      "com.apple.createml.app.tag" : "16019"
+      "com.apple.createml.app.tag" : "16019",
+      "com.apple.createml.app.version" : "1.0"
     },
     "method" : "predict"
   }
