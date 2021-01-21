@@ -10,11 +10,11 @@
 		</data>
 		<key>GlassesClassifier.mlmodelc/coremldata.bin</key>
 		<data>
-		NWv2HGznLxOfYT6smMlT9EjBFK4=
+		Vzt/G0v5SyeRmG5M+7L74D6GspM=
 		</data>
 		<key>GlassesClassifier.mlmodelc/metadata.json</key>
 		<data>
-		ebsH7MUHrdnOn13aciLQEqYauf0=
+		F70FT3keVHJwlQxAyG13yzCa7bQ=
 		</data>
 		<key>GlassesClassifier.mlmodelc/model0/coremldata.bin</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MRmacIaDJUi4AdDlBz0kEN4NuWo=
+		BNBJwGzK1wEOD0/ptA8SyyT98NA=
 		</data>
 		<key>MaskClassifier.mlmodelc/analytics/coremldata.bin</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>MaskClassifier.mlmodelc/metadata.json</key>
 		<data>
-		J0qllO6qZavfN+owkA2zAtFd0ak=
+		X0/0Nf46zL8D77aqAefkv2dKsh8=
 		</data>
 		<key>MaskClassifier.mlmodelc/model0/coremldata.bin</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Modules/SafeGateSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		AWNYIQlmhJsLqzH2HxbHJq2J+WU=
+		k4RQ4jK92SduAKvU+j7YIaMPBoU=
 		</data>
 		<key>Modules/SafeGateSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Modules/SafeGateSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		AWNYIQlmhJsLqzH2HxbHJq2J+WU=
+		k4RQ4jK92SduAKvU+j7YIaMPBoU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -154,14 +154,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jnN9vYU3lrBRn+V+8qr7+h+nw+lY2nfM0tNe1O4fqQw=
+			6a/1UyWE6/+RAEtNys3rtJ3s6+Dsao6ab485H9LgxUs=
 			</data>
 		</dict>
 		<key>GlassesClassifier.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FuBc+AHGFRnoyJgYfjMmzjDuBLPgtNNN45iVh1yWXBI=
+			PidtVm83Ng/cuUIeE02iw84ebrU5Q5N+GT1czizDjU4=
 			</data>
 		</dict>
 		<key>GlassesClassifier.mlmodelc/model0/coremldata.bin</key>
@@ -301,7 +301,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8JEETqUag2w0VsUUirtNPYMauRK+R2MrlJWhCT1+kpM=
+			yX9nDUProrJCUZowBiBkyLp5jrVEjlOg6hGiJ1uNgP4=
 			</data>
 		</dict>
 		<key>MaskClassifier.mlmodelc/model0/coremldata.bin</key>
@@ -329,7 +329,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			auoF/SYoZ9tBUpwQv4ZdkYyMoPZV15tqzHsB7fXadEE=
+			PyHLL+0kC8noQFFUHteQfQFVkuDALwAoP5AEyFKlVG4=
 			</data>
 		</dict>
 		<key>Modules/SafeGateSDK.swiftmodule/arm64.swiftdoc</key>
@@ -343,7 +343,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			auoF/SYoZ9tBUpwQv4ZdkYyMoPZV15tqzHsB7fXadEE=
+			PyHLL+0kC8noQFFUHteQfQFVkuDALwAoP5AEyFKlVG4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

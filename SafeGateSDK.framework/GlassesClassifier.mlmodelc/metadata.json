@@ -67,10 +67,10 @@
     ],
     "generatedClassName" : "GlassesClassifier",
     "userDefinedMetadata" : {
-      "com.apple.createml.app.tag" : "49",
       "com.apple.createml.version" : "10.15.7",
-      "com.apple.coreml.model.preview.type" : "imageClassifier",
-      "com.apple.createml.app.version" : "2.0"
+      "com.apple.createml.app.tag" : "49",
+      "com.apple.createml.app.version" : "2.0",
+      "com.apple.coreml.model.preview.type" : "imageClassifier"
     },
     "method" : "predict"
   }
