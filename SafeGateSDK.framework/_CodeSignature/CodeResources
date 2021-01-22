@@ -10,11 +10,11 @@
 		</data>
 		<key>GlassesClassifier.mlmodelc/coremldata.bin</key>
 		<data>
-		Izl10ty9sI1RkiKFWGHGYicL0cg=
+		NWv2HGznLxOfYT6smMlT9EjBFK4=
 		</data>
 		<key>GlassesClassifier.mlmodelc/metadata.json</key>
 		<data>
-		1zrE80baMiYukXT3aAG2vgltV2E=
+		ebsH7MUHrdnOn13aciLQEqYauf0=
 		</data>
 		<key>GlassesClassifier.mlmodelc/model0/coremldata.bin</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fd+Fa1aiiSw36ecHJ/nxtEHVH0U=
+		8w8yE5MPQZPJjTIZZOsCAAoP4ys=
 		</data>
 		<key>MaskClassifier.mlmodelc/analytics/coremldata.bin</key>
 		<data>
@@ -94,11 +94,11 @@
 		</data>
 		<key>MaskClassifier.mlmodelc/coremldata.bin</key>
 		<data>
-		Q0+pm/SKVGSX16ZgZHP/ZLMBnt0=
+		BFIybxtXKbM+O+qHUWzzLSGSfG0=
 		</data>
 		<key>MaskClassifier.mlmodelc/metadata.json</key>
 		<data>
-		J0qllO6qZavfN+owkA2zAtFd0ak=
+		X0/0Nf46zL8D77aqAefkv2dKsh8=
 		</data>
 		<key>MaskClassifier.mlmodelc/model0/coremldata.bin</key>
 		<data>
@@ -110,35 +110,23 @@
 		</data>
 		<key>Modules/SafeGateSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		/HZhLhbhadFpw9ucXh/qTkkzuGU=
+		PpIhqCPLILbnrN2370PpMEIpB9Y=
 		</data>
 		<key>Modules/SafeGateSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		B9BP+pFazjN6vfaVw60AZmz9M3E=
+		0wOXY1fSYBOJhAdPxjUI5lzf4j4=
 		</data>
 		<key>Modules/SafeGateSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		/HZhLhbhadFpw9ucXh/qTkkzuGU=
+		PpIhqCPLILbnrN2370PpMEIpB9Y=
 		</data>
 		<key>Modules/SafeGateSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		B9BP+pFazjN6vfaVw60AZmz9M3E=
+		0wOXY1fSYBOJhAdPxjUI5lzf4j4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		8fhWffxaroyhg7PuX+vS/cI9AMk=
-		</data>
-		<key>PrivateHeaders/calculations.h</key>
-		<data>
-		QTnVZzFK8VuO6FS3OwTP122anI4=
-		</data>
-		<key>PrivateHeaders/lookuptable.h</key>
-		<data>
-		xjvPsCuWY9Orn5MWgmUOxucpWpY=
-		</data>
-		<key>PrivateHeaders/sensordef_32x32.h</key>
-		<data>
-		ThIOmfvsNiPV9wafMMKmMdIu574=
+		ChxpBHzkqKs8z8uVik47PFVnXjc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -154,14 +142,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P/xXjT7OSuTfOGkuYCMcD8gqa/D0h0h/vjM9bsP3oBw=
+			jnN9vYU3lrBRn+V+8qr7+h+nw+lY2nfM0tNe1O4fqQw=
 			</data>
 		</dict>
 		<key>GlassesClassifier.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B9HI+yPfKYXAykLC5KubVTxq33dl07zSpxzyOWYsWbE=
+			FuBc+AHGFRnoyJgYfjMmzjDuBLPgtNNN45iVh1yWXBI=
 			</data>
 		</dict>
 		<key>GlassesClassifier.mlmodelc/model0/coremldata.bin</key>
@@ -294,14 +282,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b8w1i6ZqdmXSUkS3K0XC0rRNwYptDicwiu9lVlRg+6Q=
+			B5C16hkrYse23CHguEkzDCZDfJAxUP5tsdxnnFVO0Eo=
 			</data>
 		</dict>
 		<key>MaskClassifier.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8JEETqUag2w0VsUUirtNPYMauRK+R2MrlJWhCT1+kpM=
+			yX9nDUProrJCUZowBiBkyLp5jrVEjlOg6hGiJ1uNgP4=
 			</data>
 		</dict>
 		<key>MaskClassifier.mlmodelc/model0/coremldata.bin</key>
@@ -322,56 +310,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oMJ80I//R3QPPIvT2ir9c3NZKBi5qkebK/KfzTGSBtU=
+			kKq+XxLjPU4A+ZeRj3XZcASYu2Xx7ZrBY4btopFDJAs=
 			</data>
 		</dict>
 		<key>Modules/SafeGateSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GO9/R0bfjPa3rK+NRTScFvS4uQSXkRyIGV8wDmZLiZI=
+			u4dqjhmeHqHzNwqe0FeR1GPc2oI2jlKmiZILnXBF7h0=
 			</data>
 		</dict>
 		<key>Modules/SafeGateSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oMJ80I//R3QPPIvT2ir9c3NZKBi5qkebK/KfzTGSBtU=
+			kKq+XxLjPU4A+ZeRj3XZcASYu2Xx7ZrBY4btopFDJAs=
 			</data>
 		</dict>
 		<key>Modules/SafeGateSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GO9/R0bfjPa3rK+NRTScFvS4uQSXkRyIGV8wDmZLiZI=
+			u4dqjhmeHqHzNwqe0FeR1GPc2oI2jlKmiZILnXBF7h0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KP5gWzzJYhT7bdpEWHGURYCcK+MFBc3LsFegbrzuxLc=
-			</data>
-		</dict>
-		<key>PrivateHeaders/calculations.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			G+I/WznCUPslXl1hvccsXflQzQBr2Z5kl4kTfmpZP4c=
-			</data>
-		</dict>
-		<key>PrivateHeaders/lookuptable.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lgibVqWBjfjZaLANQfXeN9wKys6MhTQLvjKK78URqa4=
-			</data>
-		</dict>
-		<key>PrivateHeaders/sensordef_32x32.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AXwUR/mDy4rcjbCnIC7wMRH+RprDmBSC9DcZ5gQl8ys=
+			DbHU75qzon2Ua6oojLR6U6nbA/zsU9M5INdxH+pTYv8=
 			</data>
 		</dict>
 	</dict>

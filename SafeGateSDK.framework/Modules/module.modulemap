@@ -1,11 +1,8 @@
 framework module SafeGateSDK {
-    umbrella header "SafeGateSDK.h"
+  umbrella header "SafeGateSDK.h"
 
-    explicit module Calculations {
-        private header "calculations.h"
-    }
-
-    export *
+  export *
+  module * { export * }
 }
 
 module SafeGateSDK.Swift {
