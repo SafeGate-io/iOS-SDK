@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SafeGateSDK
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,8 +18,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = UIStoryboard(name: "Main", bundle: .main).instantiateInitialViewController()
         window?.makeKeyAndVisible()
-
+        setupLogging()
+        
         return true
     }
+    
+    func setupLogging() {
+        SafeGateSDK.Logger.logLevel = .debug
+        SafeGateSDK.Logger.instance = PrintLogger()
+    }
 }
-
